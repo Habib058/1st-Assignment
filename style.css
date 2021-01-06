@@ -1,5 +1,8 @@
+body{
+    margin: 0;
+}
 h1{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Cabin', sans-serif;
 }
 .h1{
     color: orange;
@@ -7,31 +10,112 @@ h1{
 #h1{
     color: salmon;
 }
+.first-part{
+    height:600px ;
+}
 p{
     color: dimgray;
     text-align: justify;
     margin-bottom: 50px;
 }
 .half-width{
-    height: 600px;
-    width: 40%;
     margin: 2%;
+    height: 80%;
+    width: 40%;
     padding: 2%;
     float: left;
 
 }
-.ht{
-    padding-left: 100px;
-}
 .half-width img{
-    width: 100%;
-    height: 600px;
+    width: 70%;
 }
 .link-button{
     text-decoration: none;
     color:white;
     background-image: linear-gradient(45deg,skyblue,blue);
-    padding: 10px 30px;
+    padding: 15px 40px;
     font-weight: 700;
     border-radius: 2px;
+}
+.link-button1{
+    text-decoration: none;
+    color:white;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 15px 40px;
+    font-weight: 700;
+    border-radius: 2px;
+}
+.about{
+    margin-bottom: 50px;
+    height: 650px;
+}
+.project{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    padding-top: 5%;
+}
+.new{
+    color: tomato;
+    font-size: 30px;
+}
+#new{
+    color: #191970;
+    font-size: 30px;
+}
+.last{
+    margin: 2%;
+    height: 800px;
+    background-color:#FFF5EE;
+    margin-bottom: 2%;
+}
+.image{
+    width: 30%;
+    float: left;
+    margin: 10px;
+    background-color:white;
+    height: 450px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.image img{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#img-mar{
+    margin-left: 100px;
+}
+.desc{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Cabin', sans-serif;
+}
+.image p{
+    text-align: center;
+}
+.h-col{
+    color:#0b0be27a;
+}
+.work-enquiry{
+    height: 200px;
+    margin-bottom: 200px;
+
+}
+.foot{
+    background-image: url("images/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:50%;
+    height: 200px;
+    margin-left: 28%;
+}
+.inside-foot{
+    padding-top: 7%;
+    padding-left:60%;
+}
+.inside-foot h1{
+    margin: 0;
+    color: white;
+    display: inline-block;
 }
